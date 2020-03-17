@@ -3,9 +3,12 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 
 import PAGES from '../constants/pages'
+import COLORS from '../constants/colors'
 
 const Navigation = styled.nav`
-
+  position: fixed;
+  height: 60px;
+  background: ${COLORS.raven}
 `
 
 const Hamburger = styled.button`

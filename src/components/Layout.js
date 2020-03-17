@@ -1,14 +1,24 @@
 import React from 'react'
+import styled from 'styled-components'
 import { Helmet } from 'react-helmet'
+
 import Footer from '../components/Footer'
 import Navigation from './Navigation'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
+const SkipToContentLink = styled.a`
+  opacity: 0;
+  position: absolute;
+  &:focus {
+    opacity: 100;
+  }
+`
+
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
   return (
-    <div>
+    <>
       <Helmet>
         <html lang="en" />
         <title>{title}</title>
@@ -47,11 +57,11 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix('/')}img/og-image.jpg`}
         />
       </Helmet>
-      <a href="#main-content">Skip to main content</a>
+      <SkipToContentLink href="#main-content">Skip to main content</SkipToContentLink>
       <Navigation />
       <div>{children}</div>
       <Footer />
-    </div>
+    </>
   )
 }
 
