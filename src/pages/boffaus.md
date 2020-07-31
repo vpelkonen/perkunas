@@ -3,9 +3,9 @@ title: Boffaus – Roolipeliyhdistys Perkunas ry
 description: Boffausta, larppausta ja pelaamista yhdessä.
 heading: Boffaus
 ---
-Boffaus, eli pehmomiekkailu, on kaikille lähestyttävä kontaktilaji, jossa kamppaillaan kevein pehmustetuin lyömä- ja heittoasein. Boffausta voi harjoittaa kaksin tai jopa satojen samanaikaisten osallistujien kera. Aloittaminen on helppoa – tarvitset vain kaksi asetta ja kaverin. Harrastus on reipasta kuntoilua ja hauskanpitoa parhaimmillaan. Lisää tietoa boffauksesta saa osoitteesta (boffaus.fi)[https://www.boffaus.fi].
+Boffaus, eli pehmomiekkailu, on kaikille lähestyttävä kontaktilaji, jossa kamppaillaan kevein pehmustetuin lyömä- ja heittoasein. Boffausta voi harjoittaa kaksin tai jopa satojen samanaikaisten osallistujien kera. Aloittaminen on helppoa – tarvitset vain kaksi asetta ja kaverin. Harrastus on reipasta kuntoilua ja hauskanpitoa parhaimmillaan. Lisää tietoa boffauksesta saa osoitteesta [boffaus.fi](https://www.boffaus.fi).
 
-Perkunas ry:n joukkue Perkeleen Kohortti on osallistunut Suomen suurimpaan boffaustapahtumaan (Sotahuutoon)[https://www.sotahuuto.fi/] vuodesta 2006 asti, nykyään n. 40 hengen voimin. Sotahuuto kerää lähes 700 osallistujaa yli 30:stä ryhmästä joka kesä. Yhdistyksen jäsenet myös järjestivät vuoden 2015 Sotahuudon.
+Perkunas ry:n joukkue Perkeleen Kohortti on osallistunut Suomen suurimpaan boffaustapahtumaan [Sotahuutoon](https://www.sotahuuto.fi/) vuodesta 2006 asti, nykyään n. 40 hengen voimin. Sotahuuto kerää lähes 700 osallistujaa yli 30:stä ryhmästä joka kesä. Yhdistyksen jäsenet myös järjestivät vuoden 2015 Sotahuudon.
 
 Yhdistys järjestää säännöllisiä pehmomiekkailutreenejä Savonlinnassa. Lisäksi vuosittain järjestetään 4–5 viikonlopun mittaista treenileiriä, joissa on tarkoitus harjoitella boffausta ja joukkuetoimintaa, tutustua lajiin ja toisiimme, ja valmistautua joukkueena seuraavaan Sotahuutoon.
 
@@ -23,4 +23,4 @@ Nimestään huolimatta joukkue on 100% vakaumukseton ja avoin kaikille sukupuole
 ### Esikuva
 Sotahuuto- ja pehmomiekkailukulttuuriin kuuluu oleellisesti historian fiilistely. Monilla joukkueilla onkin oma historiallinen mallinsa, josta mallintaa ulkonäköään ja toisinaan myös taktiikkaa.
 
-Perkeleen Kohortin esikuvana toimii (Varjagikaarti)[https://fi.wikipedia.org/wiki/Varjagikaarti] (engl. Varangian Guard). Varjagikaarti oli 900–1400-lukujen välillä toiminut useiden kansojen, etenkin pohjoisten, jäsenistä koostunut eliittisotilas- ja keisarin henkivartijayksikkö.
+Perkeleen Kohortin esikuvana toimii [Varjagikaarti](https://fi.wikipedia.org/wiki/Varjagikaarti) (engl. Varangian Guard). Varjagikaarti oli 900–1400-lukujen välillä toiminut useiden kansojen, etenkin pohjoisten, jäsenistä koostunut eliittisotilas- ja keisarin henkivartijayksikkö.

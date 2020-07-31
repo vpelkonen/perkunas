@@ -7,12 +7,21 @@ import Navigation from './Navigation'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
+import '../styles/common.css'
+import '../styles/normalize.css'
+
 const SkipToContentLink = styled.a`
   opacity: 0;
   position: absolute;
   &:focus {
     opacity: 100;
   }
+`
+
+const Content = styled.div`
+  padding-top: 50px;
+  max-width: 800px;
+  align-self: center;
 `
 
 const TemplateWrapper = ({ children }) => {
@@ -58,8 +67,8 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <SkipToContentLink href="#main-content">Skip to main content</SkipToContentLink>
-      {/* <Navigation /> */}
-      <div>{children}</div>
+      <Navigation />
+      <Content>{children}</Content>
       <Footer />
     </>
   )

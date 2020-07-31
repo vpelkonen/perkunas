@@ -5,7 +5,7 @@ kicker: Roolipeliyhdistys
 heading: Perkunas ry
 subheading: Boffausta, larppausta ja pelaamista yhdessä.
 ---
-Roolipeliyhdistys Perkunas ry on pitkäaikaisten ystävien vuonna 21XX perustama harrastusyhteisö, joka järjestää pääsääntöisesti pehmomiekkailu- ja roolipelitoimintaa.
+Roolipeliyhdistys Perkunas ry on pitkäaikaisten ystävien vuonna 201? perustama harrastusyhteisö, joka järjestää pääsääntöisesti pehmomiekkailu- ja roolipelitoimintaa.
 
 Yhdistys on tunnettu mm. Perkeleen Kohortin nimeä kantavasta boffausjoukkueestaan sekä Life Beyond- ja Green Knights -liveroolipeleistä.
 Perkunas ry ylläpitää turvallista, avointa ja vakaumuksetonta yhteisöä, jossa nuoret ja aikuiset voivat harrastaa keskenään liikkuen, pelaten ja toisiinsa tutustuen.
@@ -13,4 +13,4 @@ Perkunas ry ylläpitää turvallista, avointa ja vakaumuksetonta yhteisöä, jos
 Tutustu toimintaamme ja tule mukaan!
 
 ## Yhteystiedot
-roolipeliyhdistysperkunasry@gmail.com
+[roolipeliyhdistysperkunasry@gmail.com](mailto:roolipeliyhdistysperkunasry@gmail.com)
