@@ -58,7 +58,7 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <SkipToContentLink href="#main-content">Skip to main content</SkipToContentLink>
-      <Navigation />
+      {/* <Navigation /> */}
       <div>{children}</div>
       <Footer />
     </>

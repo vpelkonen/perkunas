@@ -6,10 +6,6 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import { HTMLContent } from '../components/Content'
 
-const Cover = styled.div`
-  height: 100vh;
-`
-
 const Kicker = styled.span`
   font-size: 1rem;
 `
@@ -25,16 +21,11 @@ export const PageTemplate = ({
     heading,
     subheading,
     content,
-    image
   }) => (
     <>
-      <Cover
-        style={{ background: `url(${image.childImageSharp.fluid.src})` }}
-      >
-        {!!kicker && <Kicker>{kicker}</Kicker>}
-        <Heading>{heading}</Heading>
-        {!!subheading && <Subheading>{subheading}</Subheading>}
-      </Cover>
+      {!!kicker && <Kicker>{kicker}</Kicker>}
+      <Heading>{heading}</Heading>
+      {!!subheading && <Subheading>{subheading}</Subheading>}
       <HTMLContent content={content} />
     </>
   )
@@ -45,7 +36,6 @@ PageTemplate.propTypes = {
   heading: PropTypes.string.isRequired,
   subheading: PropTypes.string,
   content: PropTypes.string.isRequired,
-  image: PropTypes.object,
 }
 
 const Page = ({ data: { markdownRemark: data } }) => (
@@ -54,7 +44,6 @@ const Page = ({ data: { markdownRemark: data } }) => (
       kicker={data.frontmatter.kicker}
       heading={data.frontmatter.heading}
       subheading={data.frontmatter.subheading}
-      image={data.frontmatter.image}
       content={data.html}
     />
   </Layout>
@@ -74,13 +63,6 @@ export const pageQuery = graphql`
         kicker
         heading
         subheading
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
     }
   }

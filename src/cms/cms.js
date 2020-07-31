@@ -7,7 +7,4 @@ import PagePreviewTemplate from '../templates/PagePreviewTemplate'
 CMS.registerMediaLibrary(uploadcare)
 CMS.registerMediaLibrary(cloudinary)
 
-CMS.registerPreviewTemplate('index', PagePreviewTemplate)
-CMS.registerPreviewTemplate('boffer', PagePreviewTemplate)
-CMS.registerPreviewTemplate('events', PagePreviewTemplate)
-CMS.registerPreviewTemplate('larp', PagePreviewTemplate)
+CMS.registerPreviewTemplate('pages', PagePreviewTemplate)

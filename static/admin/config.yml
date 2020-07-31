@@ -15,33 +15,29 @@ collections:
   - name: "pages"
     label: "Pages"
     files:
-      - file: "src/pages/index.md"
+      - file: "src/cms/pages/index.md"
         label: "Yhdistys"
         name: "index"
         fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: string}
           - {label: Kicker, name: kicker, widget: string}
           - {label: Heading, name: heading, widget: string}
           - {label: Subheading, name: subheading, widget: string}
-          - {label: Image, name: image, widget: image}
           - {label: Body, name: "body", widget: "markdown"}
-      - file: "src/pages/boffaus.md"
+      - file: "src/cms/pages/boffaus.md"
         label: "Boffaus"
         name: "boffaus"
         fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: string}
           - {label: Heading, name: heading, widget: string}
-          - {label: Image, name: image, widget: image}
           - {label: Body, name: body, widget: markdown}
-      - file: "src/pages/larppaus.md"
+      - file: "src/cms/pages/larppaus.md"
         label: "Larppaus"
         name: "larppaus"
         fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Description, name: description, widget: string}
           - {label: Heading, name: heading, widget: string}
-          - {label: Image, name: image, widget: image}
-          - {label: Body, name: body, widget: markdown}
-      - file: "src/pages/tapahtumatoiminta.md"
-        label: "Tapahtumatoiminta"
-        name: "tapahtumatoiminta"
-        fields:
-          - {label: Heading, name: heading, widget: string}
-          - {label: Image, name: image, widget: image}
           - {label: Body, name: body, widget: markdown}

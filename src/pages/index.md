@@ -4,10 +4,13 @@ description: Boffausta, larppausta ja pelaamista yhdessä.
 kicker: Roolipeliyhdistys
 heading: Perkunas ry
 subheading: Boffausta, larppausta ja pelaamista yhdessä.
-image: /img/jumbotron.jpg
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+Roolipeliyhdistys Perkunas ry on pitkäaikaisten ystävien vuonna 21XX perustama harrastusyhteisö, joka järjestää pääsääntöisesti pehmomiekkailu- ja roolipelitoimintaa.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+Yhdistys on tunnettu mm. Perkeleen Kohortin nimeä kantavasta boffausjoukkueestaan sekä Life Beyond- ja Green Knights -liveroolipeleistä.
+Perkunas ry ylläpitää turvallista, avointa ja vakaumuksetonta yhteisöä, jossa nuoret ja aikuiset voivat harrastaa keskenään liikkuen, pelaten ja toisiinsa tutustuen.
+
+Tutustu toimintaamme ja tule mukaan!
+
+## Yhteystiedot
+roolipeliyhdistysperkunasry@gmail.com
