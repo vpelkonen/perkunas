@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Perkunas ry association website',
+    title: 'Perkunas ry association',
     description:
       'This repo contains the Perkunas ry website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
   },
@@ -18,7 +18,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/cms/pages`,
+        path: `${__dirname}/src/pages`,
         name: 'pages',
       },
     },
