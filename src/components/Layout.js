@@ -1,14 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Helmet } from 'react-helmet'
+import { withPrefix } from 'gatsby'
 
 import Footer from '../components/Footer'
 import Navigation from './Navigation'
 import useSiteMetadata from './SiteMetadata'
-import { withPrefix } from 'gatsby'
+import GlobalStyle from "../styles/global"
 
 import '../styles/normalize.css'
-import '../styles/common.css'
 
 const SkipToContentLink = styled.a`
   opacity: 0;
@@ -75,6 +75,7 @@ const TemplateWrapper = ({ children }) => {
           content={`${withPrefix("/")}img/og-image.jpg`}
         />
       </Helmet>
+      <GlobalStyle />
       <SkipToContentLink href="#main-content">
         Skip to main content
       </SkipToContentLink>
