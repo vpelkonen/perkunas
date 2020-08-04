@@ -46,7 +46,7 @@ export default createGlobalStyle`
     color: ${COLORS.lightning};
   }
 
-  h1 { font-size: 5rem; }
+  h1 { font-size: 4.2rem; }
   h2 { font-size: 2.2rem; }
   h3 { font-size: 1.6rem; }
   h4 { font-size: 1.3rem; }
