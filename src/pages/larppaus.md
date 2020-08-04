@@ -7,4 +7,4 @@ Liveroolipelaaminen, live action role play, larp tai larppaaminen on yhteistä o
 
 Perkunas ry:n jäsenet ovat järjestäneet kymmeniä larppeja viimeisen 15 vuoden ajan. Yhdistys on tunnettu mm. Savonlinnan Taidelukiolla säännöllisesti järjestettävästä larp-kurssista, jonka tarkoituksena on kehittää ilmaisu- ja esiintymistaitoja, Life Beyond -maailmasta ja pelisarjasta, sekä airsoftia ja liveroolipeliä saumattomasti yhdistävästä Green Knights -pelisarjasta.
 
-Tällä hetkellä pelejä ei ole avoinna, mutta Suomen larppeja voi pitää silmällä [larp-kalenterista](http://kalenteri.larp.fi/). Avoimella lisenssillä olevaan meidän historiaamme perustuvaan fiktiiviseen Life Beyond -maailmaan voi tutustua osoitteessa [www.lifebeyond.fi](https://www.lifebeyond.fi).
+Tällä hetkellä pelejä ei ole avoinna, mutta Suomen larppeja voi pitää silmällä [larp-kalenterista](http://kalenteri.larp.fi/). Avoimella lisenssillä olevaan meidän maailmamme historiaan perustuvaan fiktiiviseen Life Beyond -maailmaan voi tutustua osoitteessa [www.lifebeyond.fi](https://www.lifebeyond.fi).
