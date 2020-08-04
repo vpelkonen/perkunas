@@ -8,7 +8,7 @@ export default () => (
   <Layout>
     <main id="main-content">
       <HeadingContainer>
-        <Heading>No perskules</Heading>
+        <Heading>No perskule</Heading>
       </HeadingContainer>
       <p>
         Kyseistä sivua ei löytynyt. Se on joko poistettu tai linkki on
