@@ -45,13 +45,18 @@ const PageLink = ({ slug, title, isLast }) => (
   <NavListItem>
     <Link
       to={slug}
-      style={{ color: COLORS.blood, padding: '1.5rem', margin: isLast ? '0 -1.5rem 0 0' : 0 }}
+      style={{
+        color: COLORS.blood,
+        padding: "1.5rem",
+        margin: isLast ? "0 -1.5rem 0 0" : 0,
+      }}
       activeStyle={{ color: COLORS.lightning }}
+      partiallyActive
     >
       {title}
     </Link>
   </NavListItem>
-)
+);
 
 export default () => {
   return (
