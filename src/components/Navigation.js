@@ -17,12 +17,11 @@ const Wrapper = styled.nav`
 const Navigation = styled.nav`
   display: flex;
   flex: 1;
-  max-width: 800px;
   background-color: ${COLORS.raven};
   flex-direction: row;
   justify-content: space-between;
   box-shadow: 0px 4px 1px 0px ${COLORS.raven};
-  padding: 0;
+  padding: 0 2.5rem;
   @media screen and (max-width: 824px) {
     padding: 0 1.5rem;
   }
