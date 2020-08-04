@@ -11,14 +11,14 @@ body {
   line-height: 1.8;
   display: flex;
   flex: 1;
-  background-color: #040309;
+  background-color: #030206;
   color: #D5DAD9;
   letter-spacing: 0.01rem;
 }
 
 a {
   text-decoration: none;
-  color: #C94960;
+  color: #E93940;
 }
 
 a:visited {
@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Cinzel;
   letter-spacing: 0.23rem;
   line-height: 1.2em;
+  color: #EFEFEF;
 }
 
 h1 { font-size: 5rem; }
