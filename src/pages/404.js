@@ -1,13 +1,21 @@
 import React from 'react'
-import Layout from '../components/Layout'
+import { Link } from 'gatsby'
 
-const NotFoundPage = () => (
+import Layout from '../components/Layout'
+import { Heading, HeadingContainer } from '../templates/Page'
+
+export default () => (
   <Layout>
     <main id="main-content">
-      <h1>NOT FOUND</h1>
-      <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+      <HeadingContainer>
+        <Heading>No perskules</Heading>
+      </HeadingContainer>
+      <p>
+        Kyseistä sivua ei löytynyt. Se on joko poistettu tai linkki on
+        ollut virheellinen.
+      </p>
+      <p>Tarkistathan, että osoite selaimen osoiterivillä on oikein.</p>
+      <Link to="/">Palaa etusivulle</Link>
     </main>
   </Layout>
 )
-
-export default NotFoundPage

@@ -10,7 +10,7 @@ const Wrapper = styled.main`
   padding: 0 0 1.5rem 0;
 `
 
-const HeadingContainer = styled.div`
+export const HeadingContainer = styled.div`
   padding-top: 4.5rem;
   min-height: 35vh;
   display: flex;
@@ -24,10 +24,12 @@ const Kicker = styled.span`
   text-align: center;
   font-size: 1.16rem;
 `
-const Heading = styled.h1`
+
+export const Heading = styled.h1`
   text-align: center;
   margin: .3em 0 .45em 0;
 `
+
 const Subheading = styled.span`
   font-family: Cinzel;
   display: block;
