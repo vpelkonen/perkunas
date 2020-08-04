@@ -7,8 +7,8 @@ import Navigation from './Navigation'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from 'gatsby'
 
-import '../styles/common.css'
 import '../styles/normalize.css'
+import '../styles/common.css'
 
 const SkipToContentLink = styled.a`
   opacity: 0;
@@ -18,11 +18,20 @@ const SkipToContentLink = styled.a`
   }
 `
 
-const Content = styled.div`
-  padding-top: 50px;
+const Wrapper = styled.div`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   max-width: 800px;
+  padding: 1.5rem;
   align-self: center;
-`
+`;
+
+const Content = styled.div`
+  display: flex;
+  flex: 1;
+  word-break: break-word;
+`;
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata()
@@ -36,24 +45,24 @@ const TemplateWrapper = ({ children }) => {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href={`${withPrefix('/')}img/apple-touch-icon.png`}
+          href={`${withPrefix("/")}img/apple-touch-icon.png`}
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/favicon-32x32.png`}
+          href={`${withPrefix("/")}img/favicon-32x32.png`}
           sizes="32x32"
         />
         <link
           rel="icon"
           type="image/png"
-          href={`${withPrefix('/')}img/favicon-16x16.png`}
+          href={`${withPrefix("/")}img/favicon-16x16.png`}
           sizes="16x16"
         />
 
         <link
           rel="mask-icon"
-          href={`${withPrefix('/')}img/safari-pinned-tab.svg`}
+          href={`${withPrefix("/")}img/safari-pinned-tab.svg`}
           color="#ff4400"
         />
         <meta name="theme-color" content="#fff" />
@@ -63,15 +72,19 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta
           property="og:image"
-          content={`${withPrefix('/')}img/og-image.jpg`}
+          content={`${withPrefix("/")}img/og-image.jpg`}
         />
       </Helmet>
-      <SkipToContentLink href="#main-content">Skip to main content</SkipToContentLink>
-      <Navigation />
-      <Content>{children}</Content>
-      <Footer />
+      <SkipToContentLink href="#main-content">
+        Skip to main content
+      </SkipToContentLink>
+      <Wrapper>
+        <Navigation />
+        <Content>{children}</Content>
+        <Footer />
+      </Wrapper>
     </>
-  )
+  );
 }
 
 export default TemplateWrapper

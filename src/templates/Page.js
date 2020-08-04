@@ -6,29 +6,45 @@ import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import { HTMLContent } from '../components/Content'
 
-const Kicker = styled.span`
-  font-size: 1rem;
-`
-const Heading = styled.h1`
-  font-size: 3rem;
-`
-const Subheading = styled.span`
-  font-size: 1rem;
+const Wrapper = styled.main`
+  padding: 0 0 1.5rem 0;
 `
 
-export const PageTemplate = ({
-    kicker,
-    heading,
-    subheading,
-    content,
-  }) => (
-    <>
+const HeadingContainer = styled.div`
+  padding-top: 4.5rem;
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`
+
+const Kicker = styled.span`
+  font-family: Cinzel;
+  display: block;
+  text-align: center;
+  font-size: 1.16rem;
+`
+const Heading = styled.h1`
+  text-align: center;
+  margin: 0 0 .5rem 0;
+`
+const Subheading = styled.span`
+  font-family: Cinzel;
+  display: block;
+  text-align: center;
+  font-size: 1.16rem;
+`
+
+export const PageTemplate = ({ kicker, heading, subheading, content }) => (
+  <Wrapper id="main-content">
+    <HeadingContainer>
       {!!kicker && <Kicker>{kicker}</Kicker>}
       <Heading>{heading}</Heading>
       {!!subheading && <Subheading>{subheading}</Subheading>}
-      <HTMLContent content={content} />
-    </>
-  )
+    </HeadingContainer>
+    <HTMLContent content={content} />
+  </Wrapper>
+);
 
 
 PageTemplate.propTypes = {
