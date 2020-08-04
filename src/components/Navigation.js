@@ -40,7 +40,7 @@ const NavListItem = styled.li`
 
 `
 
-const PageLink = ({ slug, title, isLast }) => (
+const PageLink = ({ slug, title, isLast, isHome }) => (
   <NavListItem>
     <Link
       to={slug}
@@ -50,7 +50,7 @@ const PageLink = ({ slug, title, isLast }) => (
         margin: isLast ? "0 -1.5rem 0 0" : 0,
       }}
       activeStyle={{ color: COLORS.lightning }}
-      partiallyActive
+      partiallyActive={!isHome}
     >
       {title}
     </Link>
@@ -63,7 +63,7 @@ export default () => {
       <Navigation role="navigation" aria-label="main-navigation">
         <Logo />
         <NavList>
-          <PageLink slug="/" title="Yhdistys" />
+          <PageLink slug="/" title="Yhdistys" isHome />
           <PageLink slug="/boffaus" title="Boffaus" />
           <PageLink slug="/larppaus" title="Larppaus" isLast />
         </NavList>
