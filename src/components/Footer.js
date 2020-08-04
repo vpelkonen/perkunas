@@ -7,7 +7,6 @@ const Footer = styled.footer`
   display: flex;
   padding: 1.5rem 0 0 0;
   max-width: 800px;
-  border-top: 1px solid ${COLORS.chainmail};
 `
 
 export default () => (

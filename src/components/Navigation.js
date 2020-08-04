@@ -18,7 +18,6 @@ const Navigation = styled.nav`
   flex: 1;
   max-width: 800px;
   padding: 0;
-  border-bottom: 1px solid ${COLORS.chainmail};
   background-color: ${COLORS.raven};
   flex-direction: row;
   justify-content: space-between;

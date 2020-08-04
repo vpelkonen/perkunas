@@ -26,7 +26,7 @@ const Kicker = styled.span`
 `
 const Heading = styled.h1`
   text-align: center;
-  margin: 0 0 .5rem 0;
+  margin: .3em 0 .45em 0;
 `
 const Subheading = styled.span`
   font-family: Cinzel;

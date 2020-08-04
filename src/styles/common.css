@@ -18,11 +18,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #E91640;
+  color: #C94960;
 }
 
 a:visited {
-  color: #AB636A;
+  color: #AF7777;
 }
 
 #___gatsby, #gatsby-focus-wrapper {
@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   font-family: Cinzel;
   letter-spacing: 0.23rem;
+  line-height: 1.2em;
 }
 
 h1 { font-size: 5rem; }
